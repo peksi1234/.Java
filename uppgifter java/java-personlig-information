@@ -1,0 +1,26 @@
+public class PersonligInformation {
+
+    public static void main(String[] args) {
+   
+        // Declare variables
+        String firstName;
+        String lastName;
+        int age;
+        double height;
+        boolean isStudent;
+
+        // Assign values to the variables
+        firstName = "Sebastian";
+        lastName = "Oesterberg";
+        age = 18;
+        height = 173.0;
+        isStudent = true;
+
+        // Print the values
+        System.out.println("First name: " + firstName); 
+        System.out.println("Last name: " + lastName);
+        System.out.println("Age: " + age); 
+        System.out.println("Height in cm: " + height); 
+        System.out.println("Is student: " + isStudent);
+    }
+}

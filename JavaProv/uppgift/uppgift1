@@ -1,0 +1,24 @@
+
+public class provuppgift1 {
+    
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 10;
+        int num3 = 25;
+        int num4 = 75;
+        int num5 = 125;
+
+        int addition = num1 + num5;
+        System.out.println(num1 + " + " + num5 + " = " + addition);
+
+        int subtraktion = num4 - num2;
+        System.out.println(num4 + " - " + num2 + " = " + subtraktion);
+
+        int division = num3 / num1;
+        System.out.println(num3 + " / " + num1 + " = " + division);
+
+
+        int multiplikation = num5 * num4;
+        System.out.println(num5 + " * " + num4 + " = " + multiplikation);
+    }
+}
